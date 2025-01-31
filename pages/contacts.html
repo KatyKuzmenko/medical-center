@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>FH / Contact Us</title>
+    <link
+      rel="icon"
+      href="../images/icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/style.css"
+    />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="container nav">
+        <a
+          class="nav_link link"
+          href="../index.html"
+          >HOME</a
+        >
+        <a
+          class="nav_link link"
+          href="./about.html"
+          >ABOUT</a
+        >
+        <a
+          class="nav_link link"
+          href="./articles.html"
+          >ARTICLES</a
+        >
+        <a
+          class="nav_link link"
+          href="./gallery.html"
+          >GALLERY</a
+        >
+        <a
+          class="nav_link link"
+          href="./contacts.html"
+          >CONTACT US</a
+        >
+      </div>
+    </header>
+    <main class="main container_main">
+      <div class="section section_address">
+        <h3 class="address_heading">Address:</h3>
+        <p class="addres_text">Pumpkin City, Sweet Street, 666</p>
+        <iframe
+          class="address_map"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13290.189799057398!2d-117.72408921790664!3d33.61704469234335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1737557811251!5m2!1sru!2sua"
+          width="600"
+          height="350"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <hr />
+        <h3 class="address_heading">Phones:</h3>
+        <ul class="address_list list list_ul">
+          <li class="list_item">+1234567890 - Main Office</li>
+          <li class="list_item">+1098765432 - Head of the Center</li>
+          <li class="list_item">+1357924680 - Administrator</li>
+        </ul>
+      </div>
+      <div
+        class="section callback"
+        id="callback"
+      >
+        <h3 class="callback_heading">Call back</h3>
+        <form
+          class="form callback_form"
+          action="./contacts.html#callback"
+          method="get"
+        >
+          <fieldset class="fieldset callback_fieldset">
+            <legend class="callback_legend legend">
+              Fill the form and we'll call you back
+            </legend>
+            <div class="callback_field field">
+              <label
+                class="callback_field_label label"
+                for="name_cb"
+                >Your name:</label
+              >
+              <input
+                class="callback_field_input input"
+                type="text"
+                id="name_cb"
+              />
+            </div>
+            <div class="callback_field field">
+              <label
+                class="callback_field_label"
+                for="tel_cb"
+                >Your phone number:</label
+              >
+              <input
+                class="callback_field_input input"
+                type="tel"
+                id="tel_cb"
+              />
+            </div>
+            <div class="callback_field field">
+              <label
+                class="callback_field_label"
+                for="comment_cb"
+                >Comment:</label
+              >
+              <textarea
+                class="callback_field_input input textarea"
+                name="comment"
+                id="comment_cb"
+              ></textarea>
+            </div>
+            <button
+              class="callback_submit button"
+              type="submit"
+            >
+              Submit
+            </button>
+            <button
+              class="callback_reset button"
+              type="reset"
+            >
+              Clear form
+            </button>
+          </fieldset>
+        </form>
+      </div>
+      <div
+        class="section feedback"
+        id="feedback"
+      >
+        <h3 class="feedback_heading">Feedback</h3>
+        <form
+          class="form feedback_form"
+          action="./contacts.html#feedback"
+          method="get"
+        >
+          <fieldset class="fieldset feedback_fieldset">
+            <legend class="feedback_legend legend">
+              Feel free to tell us your review
+            </legend>
+            <div class="feedback_field field">
+              <label
+                class="feedback_field_label label"
+                for="name_fb"
+                >Name:</label
+              ><input
+                class="feedback_field_input input"
+                type="text"
+                id="name_fb"
+              />
+            </div>
+            <div class="feedback_field field">
+              <label
+                class="feedback_field_label label"
+                for="surname_fb"
+                >Surname:</label
+              ><input
+                class="feedback_field_input input"
+                type="text"
+                id="surname_fb"
+              />
+            </div>
+            <div class="feedback_field field">
+              <label
+                class="feedback_field_label label"
+                for="tel_fb"
+                >Phone</label
+              ><input
+                class="feedback_field_input input"
+                type="tel"
+                id="tel_fb"
+              />
+            </div>
+            <div class="feedback_field field">
+              <label
+                class="feedback_field_label label"
+                for="email_fb"
+                >E-mail:</label
+              ><input
+                class="feedback_field_input input"
+                type="email"
+                id="email_fb"
+              />
+            </div>
+            <div class="feedback_field field">
+              <label
+                class="feedback_field_label label"
+                for="review_fb"
+                >Your review:</label
+              ><textarea
+                class="feedback_field_input input textarea"
+                name="review"
+                id="review_fb"
+              ></textarea>
+            </div>
+            <div
+              section
+              rate
+            >
+              <fieldset class="fieldset rate_fieldset">
+                <legend class="rate_legend legend">Rate us</legend>
+                <div class="rate_field">
+                  <label class="rate_field_label"
+                    >1<input
+                      class="rate_field_input radio"
+                      type="radio"
+                      name="rating"
+                      value="1" /></label
+                  ><label class="rate_field_label"
+                    >2<input
+                      class="rate_field_input radio"
+                      type="radio"
+                      name="rating"
+                      value="2" /></label
+                  ><label class="rate_field_label"
+                    >3<input
+                      class="rate_field_input radio"
+                      type="radio"
+                      name="rating"
+                      value="3" /></label
+                  ><label class="rate_field_label"
+                    >4<input
+                      class="rate_field_input radio"
+                      type="radio"
+                      name="rating"
+                      value="4" /></label
+                  ><label class="rate_field_label"
+                    >5<input
+                      class="rate_field_input radio"
+                      type="radio"
+                      name="rating"
+                      value="5"
+                  /></label>
+                </div>
+              </fieldset>
+            </div>
+            <button
+              class="submit button"
+              type="submit"
+            >
+              Send
+            </button>
+            <button
+              class="reset button"
+              type="reset"
+            >
+              Clear form
+            </button>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container container_footer">
+        Fake Hospital &copy;<br />
+        2000-2025
+      </div>
+    </footer>
+  </body>
+</html>

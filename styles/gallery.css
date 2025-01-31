@@ -1,0 +1,27 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gallery_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  height: 350px;
+  border: 1px solid #11507d;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.gallery_img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}

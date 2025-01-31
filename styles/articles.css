@@ -1,0 +1,31 @@
+.article {
+  border: 2px solid #11507d;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.raiting_container {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.raiting {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.raiting_submit {
+  border-radius: 5px;
+  background-color: #11507d30;
+}
+
+.raiting_submit:hover {
+  border-color: #11507d;
+  color: #11507d;
+}
