@@ -7,5 +7,5 @@ There is a menu with anchor links on the top so you may visit any page easily.
 
 ## Technologies
 
--HTML
--CSS
+- HTML
+- CSS
